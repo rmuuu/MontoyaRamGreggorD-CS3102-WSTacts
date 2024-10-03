@@ -1,0 +1,66 @@
+body {
+    margin-top: 2.5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.content {
+    background-color: rgba(116, 118, 120, 0.8);
+    border-radius: 20%; 
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+    justify-self: center;
+    padding: 1%;
+}
+.header {
+    font-size: x-large; 
+    text-align: center;
+    margin: auto;
+    color: rgb(167, 205, 206);
+
+}
+.flex-container {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    width: 100%;              
+    margin: 0 auto;            
+    gap: 20px;                 
+}
+.hsr {
+    width: 12%;                
+    margin: 0;                 
+}
+.line {
+    text-align: center;
+    font-size: larger;
+    border: rgb(43, 46, 49), solid;
+    background-color: rgb(43, 46, 49);
+    margin: auto; 
+    margin-top: 15px; 
+    margin-bottom: 20px; 
+    width: 240px;
+    height: 75x;
+    padding: 2%;
+    color: rgb(219, 213, 213);
+}
+.quotes {
+    margin: auto;
+    margin-top: 12%;
+    width: 16%;                
+    margin: 0;  
+}
+.kingyuan {
+    margin-top: 25px;
+    width: 70%;
+}
